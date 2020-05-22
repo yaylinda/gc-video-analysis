@@ -106,10 +106,10 @@ if __name__ == '__main__':
   # Provide these
   parser.add_argument('--source', help='local/path/to/file')
   parser.add_argument('--destination', help='storage-object-name')
-  parser.add_argument('--bucket', help='your-bucket-name', default='another-linda-bucket')
-  parser.add_argument('--prefix', help='GCS blob prefix', default='video-analysis')
+  parser.add_argument('--bucket', help='your-bucket-name (default: another-linda-bucket)', default='another-linda-bucket')
+  parser.add_argument('--prefix', help='GCS blob prefix (default: video-analysis)', default='video-analysis')
   
-  parser.add_argument('--credentials', help='GCS service account credentials json file', default='credentials/service_account.json')
+  parser.add_argument('--credentials', help='GCS service account credentials json file (default: credentials/service_account.json)', default='credentials/service_account.json')
   
   args = parser.parse_args()
 
