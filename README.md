@@ -38,10 +38,11 @@ optional arguments:
   --source SOURCE       local/path/to/file
   --destination DESTINATION
                         storage-object-name
-  --bucket BUCKET       your-bucket-name
-  --prefix PREFIX       GCS blob prefix
+  --bucket BUCKET       your-bucket-name (default: another-linda-bucket)
+  --prefix PREFIX       GCS blob prefix (default: video-analysis)
   --credentials CREDENTIALS
-                        GCS service account credentials json file
+                        GCS service account credentials json file (default:
+                        credentials/service_account.json)
 ```
 
 Either `--gcs_uri`, or `--source` and `--destination`, MUST be provided.
