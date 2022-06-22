@@ -13,7 +13,7 @@ grpcio==1.29.0
 idna==2.8
 kiwisolver==1.2.0
 matplotlib==3.2.1
-numpy==1.18.4
+numpy==1.22.0
 opencv-python==4.2.0.34
 praw==6.4.0
 prawcore==1.0.1
