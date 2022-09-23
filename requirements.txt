@@ -17,7 +17,7 @@ numpy==1.18.4
 opencv-python==4.2.0.34
 praw==6.4.0
 prawcore==1.0.1
-protobuf==3.12.1
+protobuf==3.18.3
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 PyJWT==1.7.1
